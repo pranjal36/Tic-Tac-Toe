@@ -1,6 +1,11 @@
+playerx = 0
+playerx = input("Enter the number of player(s): ")
+if playerx == 2:
+    play_game()
+
 board = ["-", "-", "-",
-         "-", "-", "-",
-         "-", "-", "-"]
+        "-", "-", "-",
+        "-", "-", "-"]
 
 game_still_going = True
 
